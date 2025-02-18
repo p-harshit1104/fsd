@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .cont{
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        gap: 15px;
+        background-color: rgb(6, 6, 69);
+        
+        
+    }
+    nav{
+        margin-left: 50px;
+        display: flex;
+        height: 60px;
+        position: relative;
+        margin-top: 10px    ;
+    
+        justify-content: center;
+        gap: 15px;
+       
+    }
+    h3:hover{
+        
+        border-radius:10px 0px;
+        border-color: blue;
+     
+    }
+    input{
+        border-radius: 12px;
+       width:500px;
+        height: 40px;
+        margin-top: 7.5px;
+    }
+    .home{
+    font-size: 0.89rem;
+    text-align: center;
+    }
+    .abt{
+        font-size: 0.89rem;
+        text-align: center;
+    }
+    .help{
+        font-size: 0.89rem;
+        text-align: center;
+    }
+    
+    nav h3{
+        background-color: rgb(219, 255, 255);    border: 3px solid black;
+        border-radius:0px 10px;
+        width: 67px;
+        text-align: center;
+        padding-top: 7px;
+        height: 40px;
+       
+        font-family: Arial, Helvetica, sans-serif;
+        
+        transition: 1s;
+        margin-top: 7.5px;
+    }
+    
+    .circle {
+        margin-top: 17px;
+        width: 40px;
+        height: 40px;
+        border: 4px solid goldenrod;
+        background-color: green;
+            border-radius: 50%;
+        transition: 0.8s;
+    }
+    .circle:hover{
+        border-style: dashed;
+        border-width: 6px;
+    }
+</style>
+<body>
+    <div class="cont">
+       
+        <nav >
+            <h3 class="home">Home</h3>
+            <h3 class="abt">About</h3>
+            <h3 class="help">Help</h3>
+            <input type="text" name="" id=""placeholder="✨ Search here...🔍">
+            
+        </nav>
+        <div class="circle"></div>
+    
+   
+</div>
+</body>
+</html>
